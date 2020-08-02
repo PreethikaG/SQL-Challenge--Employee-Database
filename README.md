@@ -5,15 +5,15 @@ I had to design the tables to hold data in the CSVs, import the CSVs into a SQL 
 
 # Data Modeling
 As part of data modeling I inspected the CSVs and sketched out an ERD of the tables.I used QuickDBD (http://www.quickdatabasediagrams.com) for creating the ERD. Attached is the ERD of the tables.
+
+
  
 
-#### Data Engineering
+# Data Engineering
 
-* Use the information you have to create a table schema for each of the six CSV files.  specify data types, primary keys, foreign keys, and other constraints.
+I used the ERD to create a table schema for each of the file by specifying data types, primary keys, foreign keys, and other constraints and then imported each CSV file into the corresponding SQL table.
 
-* Import each CSV file into the corresponding SQL table.
-
-#### Data Analysis
+# Data Analysis
 
 Once you have a complete database, do the following:
 
